@@ -1,0 +1,2533 @@
+{
+    "get": "standings",
+    "parameters": {
+        "league": "1",
+        "season": "2023"
+    },
+    "errors": [],
+    "results": 1,
+    "response": [
+        [
+            {
+                "position": 1,
+                "stage": "MLB",
+                "group": {
+                    "name": "American League"
+                },
+                "team": {
+                    "id": 34,
+                    "name": "Tampa Bay Rays",
+                    "logo": "https:\/\/media-2.api-sports.io\/baseball\/teams\/34.png"
+                },
+                "league": {
+                    "id": 1,
+                    "name": "MLB",
+                    "type": "League",
+                    "logo": "https:\/\/media-2.api-sports.io\/baseball\/leagues\/1.png",
+                    "season": 2023
+                },
+                "country": {
+                    "id": 1,
+                    "name": "USA",
+                    "code": "US",
+                    "flag": "https:\/\/media-2.api-sports.io\/flags\/us.svg"
+                },
+                "games": {
+                    "played": 48,
+                    "win": {
+                        "total": 34,
+                        "percentage": "0.708"
+                    },
+                    "lose": {
+                        "total": 14,
+                        "percentage": "0.292"
+                    }
+                },
+                "points": {
+                    "for": 290,
+                    "against": 166
+                },
+                "form": "LWWLL",
+                "description": null
+            },
+            {
+                "position": 2,
+                "stage": "MLB",
+                "group": {
+                    "name": "American League"
+                },
+                "team": {
+                    "id": 4,
+                    "name": "Baltimore Orioles",
+                    "logo": "https:\/\/media-3.api-sports.io\/baseball\/teams\/4.png"
+                },
+                "league": {
+                    "id": 1,
+                    "name": "MLB",
+                    "type": "League",
+                    "logo": "https:\/\/media-1.api-sports.io\/baseball\/leagues\/1.png",
+                    "season": 2023
+                },
+                "country": {
+                    "id": 1,
+                    "name": "USA",
+                    "code": "US",
+                    "flag": "https:\/\/media-2.api-sports.io\/flags\/us.svg"
+                },
+                "games": {
+                    "played": 47,
+                    "win": {
+                        "total": 31,
+                        "percentage": "0.660"
+                    },
+                    "lose": {
+                        "total": 16,
+                        "percentage": "0.340"
+                    }
+                },
+                "points": {
+                    "for": 240,
+                    "against": 199
+                },
+                "form": "WWWLW",
+                "description": null
+            },
+            {
+                "position": 3,
+                "stage": "MLB",
+                "group": {
+                    "name": "American League"
+                },
+                "team": {
+                    "id": 35,
+                    "name": "Texas Rangers",
+                    "logo": "https:\/\/media-1.api-sports.io\/baseball\/teams\/35.png"
+                },
+                "league": {
+                    "id": 1,
+                    "name": "MLB",
+                    "type": "League",
+                    "logo": "https:\/\/media-3.api-sports.io\/baseball\/leagues\/1.png",
+                    "season": 2023
+                },
+                "country": {
+                    "id": 1,
+                    "name": "USA",
+                    "code": "US",
+                    "flag": "https:\/\/media-3.api-sports.io\/flags\/us.svg"
+                },
+                "games": {
+                    "played": 46,
+                    "win": {
+                        "total": 29,
+                        "percentage": "0.630"
+                    },
+                    "lose": {
+                        "total": 17,
+                        "percentage": "0.370"
+                    }
+                },
+                "points": {
+                    "for": 297,
+                    "against": 189
+                },
+                "form": "WWWLW",
+                "description": null
+            },
+            {
+                "position": 4,
+                "stage": "MLB",
+                "group": {
+                    "name": "American League"
+                },
+                "team": {
+                    "id": 25,
+                    "name": "New York Yankees",
+                    "logo": "https:\/\/media-2.api-sports.io\/baseball\/teams\/25.png"
+                },
+                "league": {
+                    "id": 1,
+                    "name": "MLB",
+                    "type": "League",
+                    "logo": "https:\/\/media-2.api-sports.io\/baseball\/leagues\/1.png",
+                    "season": 2023
+                },
+                "country": {
+                    "id": 1,
+                    "name": "USA",
+                    "code": "US",
+                    "flag": "https:\/\/media-2.api-sports.io\/flags\/us.svg"
+                },
+                "games": {
+                    "played": 49,
+                    "win": {
+                        "total": 29,
+                        "percentage": "0.592"
+                    },
+                    "lose": {
+                        "total": 20,
+                        "percentage": "0.408"
+                    }
+                },
+                "points": {
+                    "for": 226,
+                    "against": 195
+                },
+                "form": "WWWWL",
+                "description": null
+            },
+            {
+                "position": 5,
+                "stage": "MLB",
+                "group": {
+                    "name": "American League"
+                },
+                "team": {
+                    "id": 15,
+                    "name": "Houston Astros",
+                    "logo": "https:\/\/media-1.api-sports.io\/baseball\/teams\/15.png"
+                },
+                "league": {
+                    "id": 1,
+                    "name": "MLB",
+                    "type": "League",
+                    "logo": "https:\/\/media-1.api-sports.io\/baseball\/leagues\/1.png",
+                    "season": 2023
+                },
+                "country": {
+                    "id": 1,
+                    "name": "USA",
+                    "code": "US",
+                    "flag": "https:\/\/media-1.api-sports.io\/flags\/us.svg"
+                },
+                "games": {
+                    "played": 46,
+                    "win": {
+                        "total": 27,
+                        "percentage": "0.587"
+                    },
+                    "lose": {
+                        "total": 19,
+                        "percentage": "0.413"
+                    }
+                },
+                "points": {
+                    "for": 201,
+                    "against": 163
+                },
+                "form": "WWWWW",
+                "description": null
+            },
+            {
+                "position": 6,
+                "stage": "MLB",
+                "group": {
+                    "name": "American League"
+                },
+                "team": {
+                    "id": 5,
+                    "name": "Boston Red Sox",
+                    "logo": "https:\/\/media-2.api-sports.io\/baseball\/teams\/5.png"
+                },
+                "league": {
+                    "id": 1,
+                    "name": "MLB",
+                    "type": "League",
+                    "logo": "https:\/\/media-2.api-sports.io\/baseball\/leagues\/1.png",
+                    "season": 2023
+                },
+                "country": {
+                    "id": 1,
+                    "name": "USA",
+                    "code": "US",
+                    "flag": "https:\/\/media-2.api-sports.io\/flags\/us.svg"
+                },
+                "games": {
+                    "played": 47,
+                    "win": {
+                        "total": 26,
+                        "percentage": "0.553"
+                    },
+                    "lose": {
+                        "total": 21,
+                        "percentage": "0.447"
+                    }
+                },
+                "points": {
+                    "for": 258,
+                    "against": 242
+                },
+                "form": "LWWWW",
+                "description": null
+            },
+            {
+                "position": 7,
+                "stage": "MLB",
+                "group": {
+                    "name": "American League"
+                },
+                "team": {
+                    "id": 36,
+                    "name": "Toronto Blue Jays",
+                    "logo": "https:\/\/media-1.api-sports.io\/baseball\/teams\/36.png"
+                },
+                "league": {
+                    "id": 1,
+                    "name": "MLB",
+                    "type": "League",
+                    "logo": "https:\/\/media-2.api-sports.io\/baseball\/leagues\/1.png",
+                    "season": 2023
+                },
+                "country": {
+                    "id": 1,
+                    "name": "USA",
+                    "code": "US",
+                    "flag": "https:\/\/media-2.api-sports.io\/flags\/us.svg"
+                },
+                "games": {
+                    "played": 47,
+                    "win": {
+                        "total": 25,
+                        "percentage": "0.532"
+                    },
+                    "lose": {
+                        "total": 22,
+                        "percentage": "0.468"
+                    }
+                },
+                "points": {
+                    "for": 214,
+                    "against": 207
+                },
+                "form": "LLLLW",
+                "description": null
+            },
+            {
+                "position": 8,
+                "stage": "MLB",
+                "group": {
+                    "name": "American League"
+                },
+                "team": {
+                    "id": 22,
+                    "name": "Minnesota Twins",
+                    "logo": "https:\/\/media-3.api-sports.io\/baseball\/teams\/22.png"
+                },
+                "league": {
+                    "id": 1,
+                    "name": "MLB",
+                    "type": "League",
+                    "logo": "https:\/\/media-3.api-sports.io\/baseball\/leagues\/1.png",
+                    "season": 2023
+                },
+                "country": {
+                    "id": 1,
+                    "name": "USA",
+                    "code": "US",
+                    "flag": "https:\/\/media-2.api-sports.io\/flags\/us.svg"
+                },
+                "games": {
+                    "played": 47,
+                    "win": {
+                        "total": 25,
+                        "percentage": "0.532"
+                    },
+                    "lose": {
+                        "total": 22,
+                        "percentage": "0.468"
+                    }
+                },
+                "points": {
+                    "for": 219,
+                    "against": 176
+                },
+                "form": "LWLLW",
+                "description": null
+            },
+            {
+                "position": 9,
+                "stage": "MLB",
+                "group": {
+                    "name": "American League"
+                },
+                "team": {
+                    "id": 17,
+                    "name": "Los Angeles Angels",
+                    "logo": "https:\/\/media-1.api-sports.io\/baseball\/teams\/17.png"
+                },
+                "league": {
+                    "id": 1,
+                    "name": "MLB",
+                    "type": "League",
+                    "logo": "https:\/\/media-2.api-sports.io\/baseball\/leagues\/1.png",
+                    "season": 2023
+                },
+                "country": {
+                    "id": 1,
+                    "name": "USA",
+                    "code": "US",
+                    "flag": "https:\/\/media-3.api-sports.io\/flags\/us.svg"
+                },
+                "games": {
+                    "played": 48,
+                    "win": {
+                        "total": 25,
+                        "percentage": "0.521"
+                    },
+                    "lose": {
+                        "total": 23,
+                        "percentage": "0.479"
+                    }
+                },
+                "points": {
+                    "for": 239,
+                    "against": 232
+                },
+                "form": "WLWWL",
+                "description": null
+            },
+            {
+                "position": 10,
+                "stage": "MLB",
+                "group": {
+                    "name": "American League"
+                },
+                "team": {
+                    "id": 32,
+                    "name": "Seattle Mariners",
+                    "logo": "https:\/\/media-3.api-sports.io\/baseball\/teams\/32.png"
+                },
+                "league": {
+                    "id": 1,
+                    "name": "MLB",
+                    "type": "League",
+                    "logo": "https:\/\/media-2.api-sports.io\/baseball\/leagues\/1.png",
+                    "season": 2023
+                },
+                "country": {
+                    "id": 1,
+                    "name": "USA",
+                    "code": "US",
+                    "flag": "https:\/\/media-1.api-sports.io\/flags\/us.svg"
+                },
+                "games": {
+                    "played": 46,
+                    "win": {
+                        "total": 22,
+                        "percentage": "0.478"
+                    },
+                    "lose": {
+                        "total": 24,
+                        "percentage": "0.522"
+                    }
+                },
+                "points": {
+                    "for": 202,
+                    "against": 184
+                },
+                "form": "LWLLL",
+                "description": null
+            },
+            {
+                "position": 11,
+                "stage": "MLB",
+                "group": {
+                    "name": "American League"
+                },
+                "team": {
+                    "id": 12,
+                    "name": "Detroit Tigers",
+                    "logo": "https:\/\/media-2.api-sports.io\/baseball\/teams\/12.png"
+                },
+                "league": {
+                    "id": 1,
+                    "name": "MLB",
+                    "type": "League",
+                    "logo": "https:\/\/media-1.api-sports.io\/baseball\/leagues\/1.png",
+                    "season": 2023
+                },
+                "country": {
+                    "id": 1,
+                    "name": "USA",
+                    "code": "US",
+                    "flag": "https:\/\/media-1.api-sports.io\/flags\/us.svg"
+                },
+                "games": {
+                    "played": 44,
+                    "win": {
+                        "total": 20,
+                        "percentage": "0.455"
+                    },
+                    "lose": {
+                        "total": 24,
+                        "percentage": "0.545"
+                    }
+                },
+                "points": {
+                    "for": 157,
+                    "against": 208
+                },
+                "form": "LLWLW",
+                "description": null
+            },
+            {
+                "position": 12,
+                "stage": "MLB",
+                "group": {
+                    "name": "American League"
+                },
+                "team": {
+                    "id": 9,
+                    "name": "Cleveland Guardians",
+                    "logo": "https:\/\/media-2.api-sports.io\/baseball\/teams\/9.png"
+                },
+                "league": {
+                    "id": 1,
+                    "name": "MLB",
+                    "type": "League",
+                    "logo": "https:\/\/media-2.api-sports.io\/baseball\/leagues\/1.png",
+                    "season": 2023
+                },
+                "country": {
+                    "id": 1,
+                    "name": "USA",
+                    "code": "US",
+                    "flag": "https:\/\/media-1.api-sports.io\/flags\/us.svg"
+                },
+                "games": {
+                    "played": 46,
+                    "win": {
+                        "total": 20,
+                        "percentage": "0.435"
+                    },
+                    "lose": {
+                        "total": 26,
+                        "percentage": "0.565"
+                    }
+                },
+                "points": {
+                    "for": 164,
+                    "against": 198
+                },
+                "form": "LLLWL",
+                "description": null
+            },
+            {
+                "position": 13,
+                "stage": "MLB",
+                "group": {
+                    "name": "American League"
+                },
+                "team": {
+                    "id": 7,
+                    "name": "Chicago White Sox",
+                    "logo": "https:\/\/media-2.api-sports.io\/baseball\/teams\/7.png"
+                },
+                "league": {
+                    "id": 1,
+                    "name": "MLB",
+                    "type": "League",
+                    "logo": "https:\/\/media-2.api-sports.io\/baseball\/leagues\/1.png",
+                    "season": 2023
+                },
+                "country": {
+                    "id": 1,
+                    "name": "USA",
+                    "code": "US",
+                    "flag": "https:\/\/media-3.api-sports.io\/flags\/us.svg"
+                },
+                "games": {
+                    "played": 48,
+                    "win": {
+                        "total": 19,
+                        "percentage": "0.396"
+                    },
+                    "lose": {
+                        "total": 29,
+                        "percentage": "0.604"
+                    }
+                },
+                "points": {
+                    "for": 203,
+                    "against": 257
+                },
+                "form": "WWWLW",
+                "description": null
+            },
+            {
+                "position": 14,
+                "stage": "MLB",
+                "group": {
+                    "name": "American League"
+                },
+                "team": {
+                    "id": 16,
+                    "name": "Kansas City Royals",
+                    "logo": "https:\/\/media-2.api-sports.io\/baseball\/teams\/16.png"
+                },
+                "league": {
+                    "id": 1,
+                    "name": "MLB",
+                    "type": "League",
+                    "logo": "https:\/\/media-2.api-sports.io\/baseball\/leagues\/1.png",
+                    "season": 2023
+                },
+                "country": {
+                    "id": 1,
+                    "name": "USA",
+                    "code": "US",
+                    "flag": "https:\/\/media-1.api-sports.io\/flags\/us.svg"
+                },
+                "games": {
+                    "played": 48,
+                    "win": {
+                        "total": 14,
+                        "percentage": "0.292"
+                    },
+                    "lose": {
+                        "total": 34,
+                        "percentage": "0.708"
+                    }
+                },
+                "points": {
+                    "for": 185,
+                    "against": 256
+                },
+                "form": "LLLWW",
+                "description": null
+            },
+            {
+                "position": 15,
+                "stage": "MLB",
+                "group": {
+                    "name": "American League"
+                },
+                "team": {
+                    "id": 26,
+                    "name": "Oakland Athletics",
+                    "logo": "https:\/\/media-1.api-sports.io\/baseball\/teams\/26.png"
+                },
+                "league": {
+                    "id": 1,
+                    "name": "MLB",
+                    "type": "League",
+                    "logo": "https:\/\/media-3.api-sports.io\/baseball\/leagues\/1.png",
+                    "season": 2023
+                },
+                "country": {
+                    "id": 1,
+                    "name": "USA",
+                    "code": "US",
+                    "flag": "https:\/\/media-1.api-sports.io\/flags\/us.svg"
+                },
+                "games": {
+                    "played": 48,
+                    "win": {
+                        "total": 10,
+                        "percentage": "0.208"
+                    },
+                    "lose": {
+                        "total": 38,
+                        "percentage": "0.792"
+                    }
+                },
+                "points": {
+                    "for": 176,
+                    "against": 344
+                },
+                "form": "LLLLW",
+                "description": null
+            },
+            {
+                "position": 1,
+                "stage": "MLB",
+                "group": {
+                    "name": "National League"
+                },
+                "team": {
+                    "id": 3,
+                    "name": "Atlanta Braves",
+                    "logo": "https:\/\/media-1.api-sports.io\/baseball\/teams\/3.png"
+                },
+                "league": {
+                    "id": 1,
+                    "name": "MLB",
+                    "type": "League",
+                    "logo": "https:\/\/media-3.api-sports.io\/baseball\/leagues\/1.png",
+                    "season": 2023
+                },
+                "country": {
+                    "id": 1,
+                    "name": "USA",
+                    "code": "US",
+                    "flag": "https:\/\/media-1.api-sports.io\/flags\/us.svg"
+                },
+                "games": {
+                    "played": 46,
+                    "win": {
+                        "total": 29,
+                        "percentage": "0.630"
+                    },
+                    "lose": {
+                        "total": 17,
+                        "percentage": "0.370"
+                    }
+                },
+                "points": {
+                    "for": 240,
+                    "against": 177
+                },
+                "form": "WLWWL",
+                "description": null
+            },
+            {
+                "position": 2,
+                "stage": "MLB",
+                "group": {
+                    "name": "National League"
+                },
+                "team": {
+                    "id": 18,
+                    "name": "Los Angeles Dodgers",
+                    "logo": "https:\/\/media-1.api-sports.io\/baseball\/teams\/18.png"
+                },
+                "league": {
+                    "id": 1,
+                    "name": "MLB",
+                    "type": "League",
+                    "logo": "https:\/\/media-1.api-sports.io\/baseball\/leagues\/1.png",
+                    "season": 2023
+                },
+                "country": {
+                    "id": 1,
+                    "name": "USA",
+                    "code": "US",
+                    "flag": "https:\/\/media-2.api-sports.io\/flags\/us.svg"
+                },
+                "games": {
+                    "played": 48,
+                    "win": {
+                        "total": 29,
+                        "percentage": "0.604"
+                    },
+                    "lose": {
+                        "total": 19,
+                        "percentage": "0.396"
+                    }
+                },
+                "points": {
+                    "for": 260,
+                    "against": 212
+                },
+                "form": "LLWLW",
+                "description": null
+            },
+            {
+                "position": 3,
+                "stage": "MLB",
+                "group": {
+                    "name": "National League"
+                },
+                "team": {
+                    "id": 2,
+                    "name": "Arizona Diamondbacks",
+                    "logo": "https:\/\/media-2.api-sports.io\/baseball\/teams\/2.png"
+                },
+                "league": {
+                    "id": 1,
+                    "name": "MLB",
+                    "type": "League",
+                    "logo": "https:\/\/media-3.api-sports.io\/baseball\/leagues\/1.png",
+                    "season": 2023
+                },
+                "country": {
+                    "id": 1,
+                    "name": "USA",
+                    "code": "US",
+                    "flag": "https:\/\/media-2.api-sports.io\/flags\/us.svg"
+                },
+                "games": {
+                    "played": 47,
+                    "win": {
+                        "total": 27,
+                        "percentage": "0.574"
+                    },
+                    "lose": {
+                        "total": 20,
+                        "percentage": "0.426"
+                    }
+                },
+                "points": {
+                    "for": 242,
+                    "against": 230
+                },
+                "form": "WWLWL",
+                "description": null
+            },
+            {
+                "position": 4,
+                "stage": "MLB",
+                "group": {
+                    "name": "National League"
+                },
+                "team": {
+                    "id": 20,
+                    "name": "Milwaukee Brewers",
+                    "logo": "https:\/\/media-1.api-sports.io\/baseball\/teams\/20.png"
+                },
+                "league": {
+                    "id": 1,
+                    "name": "MLB",
+                    "type": "League",
+                    "logo": "https:\/\/media-1.api-sports.io\/baseball\/leagues\/1.png",
+                    "season": 2023
+                },
+                "country": {
+                    "id": 1,
+                    "name": "USA",
+                    "code": "US",
+                    "flag": "https:\/\/media-1.api-sports.io\/flags\/us.svg"
+                },
+                "games": {
+                    "played": 46,
+                    "win": {
+                        "total": 25,
+                        "percentage": "0.543"
+                    },
+                    "lose": {
+                        "total": 21,
+                        "percentage": "0.457"
+                    }
+                },
+                "points": {
+                    "for": 193,
+                    "against": 195
+                },
+                "form": "WLLLW",
+                "description": null
+            },
+            {
+                "position": 5,
+                "stage": "MLB",
+                "group": {
+                    "name": "National League"
+                },
+                "team": {
+                    "id": 28,
+                    "name": "Pittsburgh Pirates",
+                    "logo": "https:\/\/media-3.api-sports.io\/baseball\/teams\/28.png"
+                },
+                "league": {
+                    "id": 1,
+                    "name": "MLB",
+                    "type": "League",
+                    "logo": "https:\/\/media-2.api-sports.io\/baseball\/leagues\/1.png",
+                    "season": 2023
+                },
+                "country": {
+                    "id": 1,
+                    "name": "USA",
+                    "code": "US",
+                    "flag": "https:\/\/media-2.api-sports.io\/flags\/us.svg"
+                },
+                "games": {
+                    "played": 46,
+                    "win": {
+                        "total": 24,
+                        "percentage": "0.522"
+                    },
+                    "lose": {
+                        "total": 22,
+                        "percentage": "0.478"
+                    }
+                },
+                "points": {
+                    "for": 203,
+                    "against": 186
+                },
+                "form": "LLWWL",
+                "description": null
+            },
+            {
+                "position": 6,
+                "stage": "MLB",
+                "group": {
+                    "name": "National League"
+                },
+                "team": {
+                    "id": 24,
+                    "name": "New York Mets",
+                    "logo": "https:\/\/media-2.api-sports.io\/baseball\/teams\/24.png"
+                },
+                "league": {
+                    "id": 1,
+                    "name": "MLB",
+                    "type": "League",
+                    "logo": "https:\/\/media-3.api-sports.io\/baseball\/leagues\/1.png",
+                    "season": 2023
+                },
+                "country": {
+                    "id": 1,
+                    "name": "USA",
+                    "code": "US",
+                    "flag": "https:\/\/media-3.api-sports.io\/flags\/us.svg"
+                },
+                "games": {
+                    "played": 48,
+                    "win": {
+                        "total": 25,
+                        "percentage": "0.521"
+                    },
+                    "lose": {
+                        "total": 23,
+                        "percentage": "0.479"
+                    }
+                },
+                "points": {
+                    "for": 207,
+                    "against": 221
+                },
+                "form": "WWWWW",
+                "description": null
+            },
+            {
+                "position": 7,
+                "stage": "MLB",
+                "group": {
+                    "name": "National League"
+                },
+                "team": {
+                    "id": 19,
+                    "name": "Miami Marlins",
+                    "logo": "https:\/\/media-3.api-sports.io\/baseball\/teams\/19.png"
+                },
+                "league": {
+                    "id": 1,
+                    "name": "MLB",
+                    "type": "League",
+                    "logo": "https:\/\/media-3.api-sports.io\/baseball\/leagues\/1.png",
+                    "season": 2023
+                },
+                "country": {
+                    "id": 1,
+                    "name": "USA",
+                    "code": "US",
+                    "flag": "https:\/\/media-2.api-sports.io\/flags\/us.svg"
+                },
+                "games": {
+                    "played": 47,
+                    "win": {
+                        "total": 24,
+                        "percentage": "0.511"
+                    },
+                    "lose": {
+                        "total": 23,
+                        "percentage": "0.489"
+                    }
+                },
+                "points": {
+                    "for": 164,
+                    "against": 218
+                },
+                "form": "LWLWW",
+                "description": null
+            },
+            {
+                "position": 8,
+                "stage": "MLB",
+                "group": {
+                    "name": "National League"
+                },
+                "team": {
+                    "id": 27,
+                    "name": "Philadelphia Phillies",
+                    "logo": "https:\/\/media-1.api-sports.io\/baseball\/teams\/27.png"
+                },
+                "league": {
+                    "id": 1,
+                    "name": "MLB",
+                    "type": "League",
+                    "logo": "https:\/\/media-3.api-sports.io\/baseball\/leagues\/1.png",
+                    "season": 2023
+                },
+                "country": {
+                    "id": 1,
+                    "name": "USA",
+                    "code": "US",
+                    "flag": "https:\/\/media-2.api-sports.io\/flags\/us.svg"
+                },
+                "games": {
+                    "played": 46,
+                    "win": {
+                        "total": 22,
+                        "percentage": "0.478"
+                    },
+                    "lose": {
+                        "total": 24,
+                        "percentage": "0.522"
+                    }
+                },
+                "points": {
+                    "for": 198,
+                    "against": 226
+                },
+                "form": "WWLLL",
+                "description": null
+            },
+            {
+                "position": 9,
+                "stage": "MLB",
+                "group": {
+                    "name": "National League"
+                },
+                "team": {
+                    "id": 31,
+                    "name": "San Francisco Giants",
+                    "logo": "https:\/\/media-1.api-sports.io\/baseball\/teams\/31.png"
+                },
+                "league": {
+                    "id": 1,
+                    "name": "MLB",
+                    "type": "League",
+                    "logo": "https:\/\/media-3.api-sports.io\/baseball\/leagues\/1.png",
+                    "season": 2023
+                },
+                "country": {
+                    "id": 1,
+                    "name": "USA",
+                    "code": "US",
+                    "flag": "https:\/\/media-2.api-sports.io\/flags\/us.svg"
+                },
+                "games": {
+                    "played": 46,
+                    "win": {
+                        "total": 22,
+                        "percentage": "0.478"
+                    },
+                    "lose": {
+                        "total": 24,
+                        "percentage": "0.522"
+                    }
+                },
+                "points": {
+                    "for": 201,
+                    "against": 219
+                },
+                "form": "WLWWW",
+                "description": null
+            },
+            {
+                "position": 10,
+                "stage": "MLB",
+                "group": {
+                    "name": "National League"
+                },
+                "team": {
+                    "id": 30,
+                    "name": "San Diego Padres",
+                    "logo": "https:\/\/media-3.api-sports.io\/baseball\/teams\/30.png"
+                },
+                "league": {
+                    "id": 1,
+                    "name": "MLB",
+                    "type": "League",
+                    "logo": "https:\/\/media-3.api-sports.io\/baseball\/leagues\/1.png",
+                    "season": 2023
+                },
+                "country": {
+                    "id": 1,
+                    "name": "USA",
+                    "code": "US",
+                    "flag": "https:\/\/media-3.api-sports.io\/flags\/us.svg"
+                },
+                "games": {
+                    "played": 47,
+                    "win": {
+                        "total": 21,
+                        "percentage": "0.447"
+                    },
+                    "lose": {
+                        "total": 26,
+                        "percentage": "0.553"
+                    }
+                },
+                "points": {
+                    "for": 182,
+                    "against": 190
+                },
+                "form": "WLLLL",
+                "description": null
+            },
+            {
+                "position": 11,
+                "stage": "MLB",
+                "group": {
+                    "name": "National League"
+                },
+                "team": {
+                    "id": 33,
+                    "name": "St.Louis Cardinals",
+                    "logo": "https:\/\/media-3.api-sports.io\/baseball\/teams\/33.png"
+                },
+                "league": {
+                    "id": 1,
+                    "name": "MLB",
+                    "type": "League",
+                    "logo": "https:\/\/media-2.api-sports.io\/baseball\/leagues\/1.png",
+                    "season": 2023
+                },
+                "country": {
+                    "id": 1,
+                    "name": "USA",
+                    "code": "US",
+                    "flag": "https:\/\/media-3.api-sports.io\/flags\/us.svg"
+                },
+                "games": {
+                    "played": 48,
+                    "win": {
+                        "total": 21,
+                        "percentage": "0.438"
+                    },
+                    "lose": {
+                        "total": 27,
+                        "percentage": "0.562"
+                    }
+                },
+                "points": {
+                    "for": 245,
+                    "against": 227
+                },
+                "form": "WWLWW",
+                "description": null
+            },
+            {
+                "position": 12,
+                "stage": "MLB",
+                "group": {
+                    "name": "National League"
+                },
+                "team": {
+                    "id": 6,
+                    "name": "Chicago Cubs",
+                    "logo": "https:\/\/media-1.api-sports.io\/baseball\/teams\/6.png"
+                },
+                "league": {
+                    "id": 1,
+                    "name": "MLB",
+                    "type": "League",
+                    "logo": "https:\/\/media-2.api-sports.io\/baseball\/leagues\/1.png",
+                    "season": 2023
+                },
+                "country": {
+                    "id": 1,
+                    "name": "USA",
+                    "code": "US",
+                    "flag": "https:\/\/media-3.api-sports.io\/flags\/us.svg"
+                },
+                "games": {
+                    "played": 46,
+                    "win": {
+                        "total": 20,
+                        "percentage": "0.435"
+                    },
+                    "lose": {
+                        "total": 26,
+                        "percentage": "0.565"
+                    }
+                },
+                "points": {
+                    "for": 220,
+                    "against": 199
+                },
+                "form": "LLWLL",
+                "description": null
+            },
+            {
+                "position": 13,
+                "stage": "MLB",
+                "group": {
+                    "name": "National League"
+                },
+                "team": {
+                    "id": 37,
+                    "name": "Washington Nationals",
+                    "logo": "https:\/\/media-3.api-sports.io\/baseball\/teams\/37.png"
+                },
+                "league": {
+                    "id": 1,
+                    "name": "MLB",
+                    "type": "League",
+                    "logo": "https:\/\/media-2.api-sports.io\/baseball\/leagues\/1.png",
+                    "season": 2023
+                },
+                "country": {
+                    "id": 1,
+                    "name": "USA",
+                    "code": "US",
+                    "flag": "https:\/\/media-2.api-sports.io\/flags\/us.svg"
+                },
+                "games": {
+                    "played": 47,
+                    "win": {
+                        "total": 20,
+                        "percentage": "0.426"
+                    },
+                    "lose": {
+                        "total": 27,
+                        "percentage": "0.574"
+                    }
+                },
+                "points": {
+                    "for": 193,
+                    "against": 214
+                },
+                "form": "WWLLL",
+                "description": null
+            },
+            {
+                "position": 14,
+                "stage": "MLB",
+                "group": {
+                    "name": "National League"
+                },
+                "team": {
+                    "id": 8,
+                    "name": "Cincinnati Reds",
+                    "logo": "https:\/\/media-1.api-sports.io\/baseball\/teams\/8.png"
+                },
+                "league": {
+                    "id": 1,
+                    "name": "MLB",
+                    "type": "League",
+                    "logo": "https:\/\/media-2.api-sports.io\/baseball\/leagues\/1.png",
+                    "season": 2023
+                },
+                "country": {
+                    "id": 1,
+                    "name": "USA",
+                    "code": "US",
+                    "flag": "https:\/\/media-3.api-sports.io\/flags\/us.svg"
+                },
+                "games": {
+                    "played": 46,
+                    "win": {
+                        "total": 19,
+                        "percentage": "0.413"
+                    },
+                    "lose": {
+                        "total": 27,
+                        "percentage": "0.587"
+                    }
+                },
+                "points": {
+                    "for": 195,
+                    "against": 238
+                },
+                "form": "LLLLW",
+                "description": null
+            },
+            {
+                "position": 15,
+                "stage": "MLB",
+                "group": {
+                    "name": "National League"
+                },
+                "team": {
+                    "id": 10,
+                    "name": "Colorado Rockies",
+                    "logo": "https:\/\/media-2.api-sports.io\/baseball\/teams\/10.png"
+                },
+                "league": {
+                    "id": 1,
+                    "name": "MLB",
+                    "type": "League",
+                    "logo": "https:\/\/media-2.api-sports.io\/baseball\/leagues\/1.png",
+                    "season": 2023
+                },
+                "country": {
+                    "id": 1,
+                    "name": "USA",
+                    "code": "US",
+                    "flag": "https:\/\/media-1.api-sports.io\/flags\/us.svg"
+                },
+                "games": {
+                    "played": 47,
+                    "win": {
+                        "total": 19,
+                        "percentage": "0.404"
+                    },
+                    "lose": {
+                        "total": 28,
+                        "percentage": "0.596"
+                    }
+                },
+                "points": {
+                    "for": 208,
+                    "against": 254
+                },
+                "form": "LLLWL",
+                "description": null
+            },
+            {
+                "position": 1,
+                "stage": "MLB",
+                "group": {
+                    "name": "AL East"
+                },
+                "team": {
+                    "id": 34,
+                    "name": "Tampa Bay Rays",
+                    "logo": "https:\/\/media-3.api-sports.io\/baseball\/teams\/34.png"
+                },
+                "league": {
+                    "id": 1,
+                    "name": "MLB",
+                    "type": "League",
+                    "logo": "https:\/\/media-2.api-sports.io\/baseball\/leagues\/1.png",
+                    "season": 2023
+                },
+                "country": {
+                    "id": 1,
+                    "name": "USA",
+                    "code": "US",
+                    "flag": "https:\/\/media-3.api-sports.io\/flags\/us.svg"
+                },
+                "games": {
+                    "played": 48,
+                    "win": {
+                        "total": 34,
+                        "percentage": "0.708"
+                    },
+                    "lose": {
+                        "total": 14,
+                        "percentage": "0.292"
+                    }
+                },
+                "points": {
+                    "for": 290,
+                    "against": 166
+                },
+                "form": "LWWLL",
+                "description": null
+            },
+            {
+                "position": 2,
+                "stage": "MLB",
+                "group": {
+                    "name": "AL East"
+                },
+                "team": {
+                    "id": 4,
+                    "name": "Baltimore Orioles",
+                    "logo": "https:\/\/media-3.api-sports.io\/baseball\/teams\/4.png"
+                },
+                "league": {
+                    "id": 1,
+                    "name": "MLB",
+                    "type": "League",
+                    "logo": "https:\/\/media-2.api-sports.io\/baseball\/leagues\/1.png",
+                    "season": 2023
+                },
+                "country": {
+                    "id": 1,
+                    "name": "USA",
+                    "code": "US",
+                    "flag": "https:\/\/media-2.api-sports.io\/flags\/us.svg"
+                },
+                "games": {
+                    "played": 47,
+                    "win": {
+                        "total": 31,
+                        "percentage": "0.660"
+                    },
+                    "lose": {
+                        "total": 16,
+                        "percentage": "0.340"
+                    }
+                },
+                "points": {
+                    "for": 240,
+                    "against": 199
+                },
+                "form": "WWWLW",
+                "description": null
+            },
+            {
+                "position": 3,
+                "stage": "MLB",
+                "group": {
+                    "name": "AL East"
+                },
+                "team": {
+                    "id": 25,
+                    "name": "New York Yankees",
+                    "logo": "https:\/\/media-2.api-sports.io\/baseball\/teams\/25.png"
+                },
+                "league": {
+                    "id": 1,
+                    "name": "MLB",
+                    "type": "League",
+                    "logo": "https:\/\/media-2.api-sports.io\/baseball\/leagues\/1.png",
+                    "season": 2023
+                },
+                "country": {
+                    "id": 1,
+                    "name": "USA",
+                    "code": "US",
+                    "flag": "https:\/\/media-2.api-sports.io\/flags\/us.svg"
+                },
+                "games": {
+                    "played": 49,
+                    "win": {
+                        "total": 29,
+                        "percentage": "0.592"
+                    },
+                    "lose": {
+                        "total": 20,
+                        "percentage": "0.408"
+                    }
+                },
+                "points": {
+                    "for": 226,
+                    "against": 195
+                },
+                "form": "WWWWL",
+                "description": null
+            },
+            {
+                "position": 4,
+                "stage": "MLB",
+                "group": {
+                    "name": "AL East"
+                },
+                "team": {
+                    "id": 5,
+                    "name": "Boston Red Sox",
+                    "logo": "https:\/\/media-2.api-sports.io\/baseball\/teams\/5.png"
+                },
+                "league": {
+                    "id": 1,
+                    "name": "MLB",
+                    "type": "League",
+                    "logo": "https:\/\/media-1.api-sports.io\/baseball\/leagues\/1.png",
+                    "season": 2023
+                },
+                "country": {
+                    "id": 1,
+                    "name": "USA",
+                    "code": "US",
+                    "flag": "https:\/\/media-2.api-sports.io\/flags\/us.svg"
+                },
+                "games": {
+                    "played": 47,
+                    "win": {
+                        "total": 26,
+                        "percentage": "0.553"
+                    },
+                    "lose": {
+                        "total": 21,
+                        "percentage": "0.447"
+                    }
+                },
+                "points": {
+                    "for": 258,
+                    "against": 242
+                },
+                "form": "LWWWW",
+                "description": null
+            },
+            {
+                "position": 5,
+                "stage": "MLB",
+                "group": {
+                    "name": "AL East"
+                },
+                "team": {
+                    "id": 36,
+                    "name": "Toronto Blue Jays",
+                    "logo": "https:\/\/media-3.api-sports.io\/baseball\/teams\/36.png"
+                },
+                "league": {
+                    "id": 1,
+                    "name": "MLB",
+                    "type": "League",
+                    "logo": "https:\/\/media-1.api-sports.io\/baseball\/leagues\/1.png",
+                    "season": 2023
+                },
+                "country": {
+                    "id": 1,
+                    "name": "USA",
+                    "code": "US",
+                    "flag": "https:\/\/media-2.api-sports.io\/flags\/us.svg"
+                },
+                "games": {
+                    "played": 47,
+                    "win": {
+                        "total": 25,
+                        "percentage": "0.532"
+                    },
+                    "lose": {
+                        "total": 22,
+                        "percentage": "0.468"
+                    }
+                },
+                "points": {
+                    "for": 214,
+                    "against": 207
+                },
+                "form": "LLLLW",
+                "description": null
+            },
+            {
+                "position": 1,
+                "stage": "MLB",
+                "group": {
+                    "name": "AL Central"
+                },
+                "team": {
+                    "id": 22,
+                    "name": "Minnesota Twins",
+                    "logo": "https:\/\/media-2.api-sports.io\/baseball\/teams\/22.png"
+                },
+                "league": {
+                    "id": 1,
+                    "name": "MLB",
+                    "type": "League",
+                    "logo": "https:\/\/media-1.api-sports.io\/baseball\/leagues\/1.png",
+                    "season": 2023
+                },
+                "country": {
+                    "id": 1,
+                    "name": "USA",
+                    "code": "US",
+                    "flag": "https:\/\/media-2.api-sports.io\/flags\/us.svg"
+                },
+                "games": {
+                    "played": 47,
+                    "win": {
+                        "total": 25,
+                        "percentage": "0.532"
+                    },
+                    "lose": {
+                        "total": 22,
+                        "percentage": "0.468"
+                    }
+                },
+                "points": {
+                    "for": 219,
+                    "against": 176
+                },
+                "form": "LWLLW",
+                "description": null
+            },
+            {
+                "position": 2,
+                "stage": "MLB",
+                "group": {
+                    "name": "AL Central"
+                },
+                "team": {
+                    "id": 12,
+                    "name": "Detroit Tigers",
+                    "logo": "https:\/\/media-1.api-sports.io\/baseball\/teams\/12.png"
+                },
+                "league": {
+                    "id": 1,
+                    "name": "MLB",
+                    "type": "League",
+                    "logo": "https:\/\/media-3.api-sports.io\/baseball\/leagues\/1.png",
+                    "season": 2023
+                },
+                "country": {
+                    "id": 1,
+                    "name": "USA",
+                    "code": "US",
+                    "flag": "https:\/\/media-2.api-sports.io\/flags\/us.svg"
+                },
+                "games": {
+                    "played": 44,
+                    "win": {
+                        "total": 20,
+                        "percentage": "0.455"
+                    },
+                    "lose": {
+                        "total": 24,
+                        "percentage": "0.545"
+                    }
+                },
+                "points": {
+                    "for": 157,
+                    "against": 208
+                },
+                "form": "LLWLW",
+                "description": null
+            },
+            {
+                "position": 3,
+                "stage": "MLB",
+                "group": {
+                    "name": "AL Central"
+                },
+                "team": {
+                    "id": 9,
+                    "name": "Cleveland Guardians",
+                    "logo": "https:\/\/media-2.api-sports.io\/baseball\/teams\/9.png"
+                },
+                "league": {
+                    "id": 1,
+                    "name": "MLB",
+                    "type": "League",
+                    "logo": "https:\/\/media-2.api-sports.io\/baseball\/leagues\/1.png",
+                    "season": 2023
+                },
+                "country": {
+                    "id": 1,
+                    "name": "USA",
+                    "code": "US",
+                    "flag": "https:\/\/media-2.api-sports.io\/flags\/us.svg"
+                },
+                "games": {
+                    "played": 46,
+                    "win": {
+                        "total": 20,
+                        "percentage": "0.435"
+                    },
+                    "lose": {
+                        "total": 26,
+                        "percentage": "0.565"
+                    }
+                },
+                "points": {
+                    "for": 164,
+                    "against": 198
+                },
+                "form": "LLLWL",
+                "description": null
+            },
+            {
+                "position": 4,
+                "stage": "MLB",
+                "group": {
+                    "name": "AL Central"
+                },
+                "team": {
+                    "id": 7,
+                    "name": "Chicago White Sox",
+                    "logo": "https:\/\/media-2.api-sports.io\/baseball\/teams\/7.png"
+                },
+                "league": {
+                    "id": 1,
+                    "name": "MLB",
+                    "type": "League",
+                    "logo": "https:\/\/media-3.api-sports.io\/baseball\/leagues\/1.png",
+                    "season": 2023
+                },
+                "country": {
+                    "id": 1,
+                    "name": "USA",
+                    "code": "US",
+                    "flag": "https:\/\/media-1.api-sports.io\/flags\/us.svg"
+                },
+                "games": {
+                    "played": 48,
+                    "win": {
+                        "total": 19,
+                        "percentage": "0.396"
+                    },
+                    "lose": {
+                        "total": 29,
+                        "percentage": "0.604"
+                    }
+                },
+                "points": {
+                    "for": 203,
+                    "against": 257
+                },
+                "form": "WWWLW",
+                "description": null
+            },
+            {
+                "position": 5,
+                "stage": "MLB",
+                "group": {
+                    "name": "AL Central"
+                },
+                "team": {
+                    "id": 16,
+                    "name": "Kansas City Royals",
+                    "logo": "https:\/\/media-1.api-sports.io\/baseball\/teams\/16.png"
+                },
+                "league": {
+                    "id": 1,
+                    "name": "MLB",
+                    "type": "League",
+                    "logo": "https:\/\/media-3.api-sports.io\/baseball\/leagues\/1.png",
+                    "season": 2023
+                },
+                "country": {
+                    "id": 1,
+                    "name": "USA",
+                    "code": "US",
+                    "flag": "https:\/\/media-2.api-sports.io\/flags\/us.svg"
+                },
+                "games": {
+                    "played": 48,
+                    "win": {
+                        "total": 14,
+                        "percentage": "0.292"
+                    },
+                    "lose": {
+                        "total": 34,
+                        "percentage": "0.708"
+                    }
+                },
+                "points": {
+                    "for": 185,
+                    "against": 256
+                },
+                "form": "LLLWW",
+                "description": null
+            },
+            {
+                "position": 1,
+                "stage": "MLB",
+                "group": {
+                    "name": "AL West"
+                },
+                "team": {
+                    "id": 35,
+                    "name": "Texas Rangers",
+                    "logo": "https:\/\/media-1.api-sports.io\/baseball\/teams\/35.png"
+                },
+                "league": {
+                    "id": 1,
+                    "name": "MLB",
+                    "type": "League",
+                    "logo": "https:\/\/media-3.api-sports.io\/baseball\/leagues\/1.png",
+                    "season": 2023
+                },
+                "country": {
+                    "id": 1,
+                    "name": "USA",
+                    "code": "US",
+                    "flag": "https:\/\/media-1.api-sports.io\/flags\/us.svg"
+                },
+                "games": {
+                    "played": 46,
+                    "win": {
+                        "total": 29,
+                        "percentage": "0.630"
+                    },
+                    "lose": {
+                        "total": 17,
+                        "percentage": "0.370"
+                    }
+                },
+                "points": {
+                    "for": 297,
+                    "against": 189
+                },
+                "form": "WWWLW",
+                "description": null
+            },
+            {
+                "position": 2,
+                "stage": "MLB",
+                "group": {
+                    "name": "AL West"
+                },
+                "team": {
+                    "id": 15,
+                    "name": "Houston Astros",
+                    "logo": "https:\/\/media-1.api-sports.io\/baseball\/teams\/15.png"
+                },
+                "league": {
+                    "id": 1,
+                    "name": "MLB",
+                    "type": "League",
+                    "logo": "https:\/\/media-3.api-sports.io\/baseball\/leagues\/1.png",
+                    "season": 2023
+                },
+                "country": {
+                    "id": 1,
+                    "name": "USA",
+                    "code": "US",
+                    "flag": "https:\/\/media-2.api-sports.io\/flags\/us.svg"
+                },
+                "games": {
+                    "played": 46,
+                    "win": {
+                        "total": 27,
+                        "percentage": "0.587"
+                    },
+                    "lose": {
+                        "total": 19,
+                        "percentage": "0.413"
+                    }
+                },
+                "points": {
+                    "for": 201,
+                    "against": 163
+                },
+                "form": "WWWWW",
+                "description": null
+            },
+            {
+                "position": 3,
+                "stage": "MLB",
+                "group": {
+                    "name": "AL West"
+                },
+                "team": {
+                    "id": 17,
+                    "name": "Los Angeles Angels",
+                    "logo": "https:\/\/media-2.api-sports.io\/baseball\/teams\/17.png"
+                },
+                "league": {
+                    "id": 1,
+                    "name": "MLB",
+                    "type": "League",
+                    "logo": "https:\/\/media-2.api-sports.io\/baseball\/leagues\/1.png",
+                    "season": 2023
+                },
+                "country": {
+                    "id": 1,
+                    "name": "USA",
+                    "code": "US",
+                    "flag": "https:\/\/media-1.api-sports.io\/flags\/us.svg"
+                },
+                "games": {
+                    "played": 48,
+                    "win": {
+                        "total": 25,
+                        "percentage": "0.521"
+                    },
+                    "lose": {
+                        "total": 23,
+                        "percentage": "0.479"
+                    }
+                },
+                "points": {
+                    "for": 239,
+                    "against": 232
+                },
+                "form": "WLWWL",
+                "description": null
+            },
+            {
+                "position": 4,
+                "stage": "MLB",
+                "group": {
+                    "name": "AL West"
+                },
+                "team": {
+                    "id": 32,
+                    "name": "Seattle Mariners",
+                    "logo": "https:\/\/media-1.api-sports.io\/baseball\/teams\/32.png"
+                },
+                "league": {
+                    "id": 1,
+                    "name": "MLB",
+                    "type": "League",
+                    "logo": "https:\/\/media-2.api-sports.io\/baseball\/leagues\/1.png",
+                    "season": 2023
+                },
+                "country": {
+                    "id": 1,
+                    "name": "USA",
+                    "code": "US",
+                    "flag": "https:\/\/media-2.api-sports.io\/flags\/us.svg"
+                },
+                "games": {
+                    "played": 46,
+                    "win": {
+                        "total": 22,
+                        "percentage": "0.478"
+                    },
+                    "lose": {
+                        "total": 24,
+                        "percentage": "0.522"
+                    }
+                },
+                "points": {
+                    "for": 202,
+                    "against": 184
+                },
+                "form": "LWLLL",
+                "description": null
+            },
+            {
+                "position": 5,
+                "stage": "MLB",
+                "group": {
+                    "name": "AL West"
+                },
+                "team": {
+                    "id": 26,
+                    "name": "Oakland Athletics",
+                    "logo": "https:\/\/media-1.api-sports.io\/baseball\/teams\/26.png"
+                },
+                "league": {
+                    "id": 1,
+                    "name": "MLB",
+                    "type": "League",
+                    "logo": "https:\/\/media-2.api-sports.io\/baseball\/leagues\/1.png",
+                    "season": 2023
+                },
+                "country": {
+                    "id": 1,
+                    "name": "USA",
+                    "code": "US",
+                    "flag": "https:\/\/media-1.api-sports.io\/flags\/us.svg"
+                },
+                "games": {
+                    "played": 48,
+                    "win": {
+                        "total": 10,
+                        "percentage": "0.208"
+                    },
+                    "lose": {
+                        "total": 38,
+                        "percentage": "0.792"
+                    }
+                },
+                "points": {
+                    "for": 176,
+                    "against": 344
+                },
+                "form": "LLLLW",
+                "description": null
+            },
+            {
+                "position": 1,
+                "stage": "MLB",
+                "group": {
+                    "name": "NL East"
+                },
+                "team": {
+                    "id": 3,
+                    "name": "Atlanta Braves",
+                    "logo": "https:\/\/media-1.api-sports.io\/baseball\/teams\/3.png"
+                },
+                "league": {
+                    "id": 1,
+                    "name": "MLB",
+                    "type": "League",
+                    "logo": "https:\/\/media-3.api-sports.io\/baseball\/leagues\/1.png",
+                    "season": 2023
+                },
+                "country": {
+                    "id": 1,
+                    "name": "USA",
+                    "code": "US",
+                    "flag": "https:\/\/media-3.api-sports.io\/flags\/us.svg"
+                },
+                "games": {
+                    "played": 46,
+                    "win": {
+                        "total": 29,
+                        "percentage": "0.630"
+                    },
+                    "lose": {
+                        "total": 17,
+                        "percentage": "0.370"
+                    }
+                },
+                "points": {
+                    "for": 240,
+                    "against": 177
+                },
+                "form": "WLWWL",
+                "description": null
+            },
+            {
+                "position": 2,
+                "stage": "MLB",
+                "group": {
+                    "name": "NL East"
+                },
+                "team": {
+                    "id": 24,
+                    "name": "New York Mets",
+                    "logo": "https:\/\/media-1.api-sports.io\/baseball\/teams\/24.png"
+                },
+                "league": {
+                    "id": 1,
+                    "name": "MLB",
+                    "type": "League",
+                    "logo": "https:\/\/media-3.api-sports.io\/baseball\/leagues\/1.png",
+                    "season": 2023
+                },
+                "country": {
+                    "id": 1,
+                    "name": "USA",
+                    "code": "US",
+                    "flag": "https:\/\/media-1.api-sports.io\/flags\/us.svg"
+                },
+                "games": {
+                    "played": 48,
+                    "win": {
+                        "total": 25,
+                        "percentage": "0.521"
+                    },
+                    "lose": {
+                        "total": 23,
+                        "percentage": "0.479"
+                    }
+                },
+                "points": {
+                    "for": 207,
+                    "against": 221
+                },
+                "form": "WWWWW",
+                "description": null
+            },
+            {
+                "position": 3,
+                "stage": "MLB",
+                "group": {
+                    "name": "NL East"
+                },
+                "team": {
+                    "id": 19,
+                    "name": "Miami Marlins",
+                    "logo": "https:\/\/media-2.api-sports.io\/baseball\/teams\/19.png"
+                },
+                "league": {
+                    "id": 1,
+                    "name": "MLB",
+                    "type": "League",
+                    "logo": "https:\/\/media-1.api-sports.io\/baseball\/leagues\/1.png",
+                    "season": 2023
+                },
+                "country": {
+                    "id": 1,
+                    "name": "USA",
+                    "code": "US",
+                    "flag": "https:\/\/media-2.api-sports.io\/flags\/us.svg"
+                },
+                "games": {
+                    "played": 47,
+                    "win": {
+                        "total": 24,
+                        "percentage": "0.511"
+                    },
+                    "lose": {
+                        "total": 23,
+                        "percentage": "0.489"
+                    }
+                },
+                "points": {
+                    "for": 164,
+                    "against": 218
+                },
+                "form": "LWLWW",
+                "description": null
+            },
+            {
+                "position": 4,
+                "stage": "MLB",
+                "group": {
+                    "name": "NL East"
+                },
+                "team": {
+                    "id": 27,
+                    "name": "Philadelphia Phillies",
+                    "logo": "https:\/\/media-2.api-sports.io\/baseball\/teams\/27.png"
+                },
+                "league": {
+                    "id": 1,
+                    "name": "MLB",
+                    "type": "League",
+                    "logo": "https:\/\/media-2.api-sports.io\/baseball\/leagues\/1.png",
+                    "season": 2023
+                },
+                "country": {
+                    "id": 1,
+                    "name": "USA",
+                    "code": "US",
+                    "flag": "https:\/\/media-2.api-sports.io\/flags\/us.svg"
+                },
+                "games": {
+                    "played": 46,
+                    "win": {
+                        "total": 22,
+                        "percentage": "0.478"
+                    },
+                    "lose": {
+                        "total": 24,
+                        "percentage": "0.522"
+                    }
+                },
+                "points": {
+                    "for": 198,
+                    "against": 226
+                },
+                "form": "WWLLL",
+                "description": null
+            },
+            {
+                "position": 5,
+                "stage": "MLB",
+                "group": {
+                    "name": "NL East"
+                },
+                "team": {
+                    "id": 37,
+                    "name": "Washington Nationals",
+                    "logo": "https:\/\/media-2.api-sports.io\/baseball\/teams\/37.png"
+                },
+                "league": {
+                    "id": 1,
+                    "name": "MLB",
+                    "type": "League",
+                    "logo": "https:\/\/media-3.api-sports.io\/baseball\/leagues\/1.png",
+                    "season": 2023
+                },
+                "country": {
+                    "id": 1,
+                    "name": "USA",
+                    "code": "US",
+                    "flag": "https:\/\/media-3.api-sports.io\/flags\/us.svg"
+                },
+                "games": {
+                    "played": 47,
+                    "win": {
+                        "total": 20,
+                        "percentage": "0.426"
+                    },
+                    "lose": {
+                        "total": 27,
+                        "percentage": "0.574"
+                    }
+                },
+                "points": {
+                    "for": 193,
+                    "against": 214
+                },
+                "form": "WWLLL",
+                "description": null
+            },
+            {
+                "position": 1,
+                "stage": "MLB",
+                "group": {
+                    "name": "NL Central"
+                },
+                "team": {
+                    "id": 20,
+                    "name": "Milwaukee Brewers",
+                    "logo": "https:\/\/media-2.api-sports.io\/baseball\/teams\/20.png"
+                },
+                "league": {
+                    "id": 1,
+                    "name": "MLB",
+                    "type": "League",
+                    "logo": "https:\/\/media-3.api-sports.io\/baseball\/leagues\/1.png",
+                    "season": 2023
+                },
+                "country": {
+                    "id": 1,
+                    "name": "USA",
+                    "code": "US",
+                    "flag": "https:\/\/media-3.api-sports.io\/flags\/us.svg"
+                },
+                "games": {
+                    "played": 46,
+                    "win": {
+                        "total": 25,
+                        "percentage": "0.543"
+                    },
+                    "lose": {
+                        "total": 21,
+                        "percentage": "0.457"
+                    }
+                },
+                "points": {
+                    "for": 193,
+                    "against": 195
+                },
+                "form": "WLLLW",
+                "description": null
+            },
+            {
+                "position": 2,
+                "stage": "MLB",
+                "group": {
+                    "name": "NL Central"
+                },
+                "team": {
+                    "id": 28,
+                    "name": "Pittsburgh Pirates",
+                    "logo": "https:\/\/media-3.api-sports.io\/baseball\/teams\/28.png"
+                },
+                "league": {
+                    "id": 1,
+                    "name": "MLB",
+                    "type": "League",
+                    "logo": "https:\/\/media-2.api-sports.io\/baseball\/leagues\/1.png",
+                    "season": 2023
+                },
+                "country": {
+                    "id": 1,
+                    "name": "USA",
+                    "code": "US",
+                    "flag": "https:\/\/media-2.api-sports.io\/flags\/us.svg"
+                },
+                "games": {
+                    "played": 46,
+                    "win": {
+                        "total": 24,
+                        "percentage": "0.522"
+                    },
+                    "lose": {
+                        "total": 22,
+                        "percentage": "0.478"
+                    }
+                },
+                "points": {
+                    "for": 203,
+                    "against": 186
+                },
+                "form": "LLWWL",
+                "description": null
+            },
+            {
+                "position": 3,
+                "stage": "MLB",
+                "group": {
+                    "name": "NL Central"
+                },
+                "team": {
+                    "id": 33,
+                    "name": "St.Louis Cardinals",
+                    "logo": "https:\/\/media-2.api-sports.io\/baseball\/teams\/33.png"
+                },
+                "league": {
+                    "id": 1,
+                    "name": "MLB",
+                    "type": "League",
+                    "logo": "https:\/\/media-1.api-sports.io\/baseball\/leagues\/1.png",
+                    "season": 2023
+                },
+                "country": {
+                    "id": 1,
+                    "name": "USA",
+                    "code": "US",
+                    "flag": "https:\/\/media-2.api-sports.io\/flags\/us.svg"
+                },
+                "games": {
+                    "played": 48,
+                    "win": {
+                        "total": 21,
+                        "percentage": "0.438"
+                    },
+                    "lose": {
+                        "total": 27,
+                        "percentage": "0.562"
+                    }
+                },
+                "points": {
+                    "for": 245,
+                    "against": 227
+                },
+                "form": "WWLWW",
+                "description": null
+            },
+            {
+                "position": 4,
+                "stage": "MLB",
+                "group": {
+                    "name": "NL Central"
+                },
+                "team": {
+                    "id": 6,
+                    "name": "Chicago Cubs",
+                    "logo": "https:\/\/media-2.api-sports.io\/baseball\/teams\/6.png"
+                },
+                "league": {
+                    "id": 1,
+                    "name": "MLB",
+                    "type": "League",
+                    "logo": "https:\/\/media-1.api-sports.io\/baseball\/leagues\/1.png",
+                    "season": 2023
+                },
+                "country": {
+                    "id": 1,
+                    "name": "USA",
+                    "code": "US",
+                    "flag": "https:\/\/media-3.api-sports.io\/flags\/us.svg"
+                },
+                "games": {
+                    "played": 46,
+                    "win": {
+                        "total": 20,
+                        "percentage": "0.435"
+                    },
+                    "lose": {
+                        "total": 26,
+                        "percentage": "0.565"
+                    }
+                },
+                "points": {
+                    "for": 220,
+                    "against": 199
+                },
+                "form": "LLWLL",
+                "description": null
+            },
+            {
+                "position": 5,
+                "stage": "MLB",
+                "group": {
+                    "name": "NL Central"
+                },
+                "team": {
+                    "id": 8,
+                    "name": "Cincinnati Reds",
+                    "logo": "https:\/\/media-1.api-sports.io\/baseball\/teams\/8.png"
+                },
+                "league": {
+                    "id": 1,
+                    "name": "MLB",
+                    "type": "League",
+                    "logo": "https:\/\/media-3.api-sports.io\/baseball\/leagues\/1.png",
+                    "season": 2023
+                },
+                "country": {
+                    "id": 1,
+                    "name": "USA",
+                    "code": "US",
+                    "flag": "https:\/\/media-1.api-sports.io\/flags\/us.svg"
+                },
+                "games": {
+                    "played": 46,
+                    "win": {
+                        "total": 19,
+                        "percentage": "0.413"
+                    },
+                    "lose": {
+                        "total": 27,
+                        "percentage": "0.587"
+                    }
+                },
+                "points": {
+                    "for": 195,
+                    "against": 238
+                },
+                "form": "LLLLW",
+                "description": null
+            },
+            {
+                "position": 1,
+                "stage": "MLB",
+                "group": {
+                    "name": "NL West"
+                },
+                "team": {
+                    "id": 18,
+                    "name": "Los Angeles Dodgers",
+                    "logo": "https:\/\/media-3.api-sports.io\/baseball\/teams\/18.png"
+                },
+                "league": {
+                    "id": 1,
+                    "name": "MLB",
+                    "type": "League",
+                    "logo": "https:\/\/media-2.api-sports.io\/baseball\/leagues\/1.png",
+                    "season": 2023
+                },
+                "country": {
+                    "id": 1,
+                    "name": "USA",
+                    "code": "US",
+                    "flag": "https:\/\/media-3.api-sports.io\/flags\/us.svg"
+                },
+                "games": {
+                    "played": 48,
+                    "win": {
+                        "total": 29,
+                        "percentage": "0.604"
+                    },
+                    "lose": {
+                        "total": 19,
+                        "percentage": "0.396"
+                    }
+                },
+                "points": {
+                    "for": 260,
+                    "against": 212
+                },
+                "form": "LLWLW",
+                "description": null
+            },
+            {
+                "position": 2,
+                "stage": "MLB",
+                "group": {
+                    "name": "NL West"
+                },
+                "team": {
+                    "id": 2,
+                    "name": "Arizona Diamondbacks",
+                    "logo": "https:\/\/media-1.api-sports.io\/baseball\/teams\/2.png"
+                },
+                "league": {
+                    "id": 1,
+                    "name": "MLB",
+                    "type": "League",
+                    "logo": "https:\/\/media-3.api-sports.io\/baseball\/leagues\/1.png",
+                    "season": 2023
+                },
+                "country": {
+                    "id": 1,
+                    "name": "USA",
+                    "code": "US",
+                    "flag": "https:\/\/media-3.api-sports.io\/flags\/us.svg"
+                },
+                "games": {
+                    "played": 47,
+                    "win": {
+                        "total": 27,
+                        "percentage": "0.574"
+                    },
+                    "lose": {
+                        "total": 20,
+                        "percentage": "0.426"
+                    }
+                },
+                "points": {
+                    "for": 242,
+                    "against": 230
+                },
+                "form": "WWLWL",
+                "description": null
+            },
+            {
+                "position": 3,
+                "stage": "MLB",
+                "group": {
+                    "name": "NL West"
+                },
+                "team": {
+                    "id": 31,
+                    "name": "San Francisco Giants",
+                    "logo": "https:\/\/media-3.api-sports.io\/baseball\/teams\/31.png"
+                },
+                "league": {
+                    "id": 1,
+                    "name": "MLB",
+                    "type": "League",
+                    "logo": "https:\/\/media-3.api-sports.io\/baseball\/leagues\/1.png",
+                    "season": 2023
+                },
+                "country": {
+                    "id": 1,
+                    "name": "USA",
+                    "code": "US",
+                    "flag": "https:\/\/media-3.api-sports.io\/flags\/us.svg"
+                },
+                "games": {
+                    "played": 46,
+                    "win": {
+                        "total": 22,
+                        "percentage": "0.478"
+                    },
+                    "lose": {
+                        "total": 24,
+                        "percentage": "0.522"
+                    }
+                },
+                "points": {
+                    "for": 201,
+                    "against": 219
+                },
+                "form": "WLWWW",
+                "description": null
+            },
+            {
+                "position": 4,
+                "stage": "MLB",
+                "group": {
+                    "name": "NL West"
+                },
+                "team": {
+                    "id": 30,
+                    "name": "San Diego Padres",
+                    "logo": "https:\/\/media-2.api-sports.io\/baseball\/teams\/30.png"
+                },
+                "league": {
+                    "id": 1,
+                    "name": "MLB",
+                    "type": "League",
+                    "logo": "https:\/\/media-1.api-sports.io\/baseball\/leagues\/1.png",
+                    "season": 2023
+                },
+                "country": {
+                    "id": 1,
+                    "name": "USA",
+                    "code": "US",
+                    "flag": "https:\/\/media-3.api-sports.io\/flags\/us.svg"
+                },
+                "games": {
+                    "played": 47,
+                    "win": {
+                        "total": 21,
+                        "percentage": "0.447"
+                    },
+                    "lose": {
+                        "total": 26,
+                        "percentage": "0.553"
+                    }
+                },
+                "points": {
+                    "for": 182,
+                    "against": 190
+                },
+                "form": "WLLLL",
+                "description": null
+            },
+            {
+                "position": 5,
+                "stage": "MLB",
+                "group": {
+                    "name": "NL West"
+                },
+                "team": {
+                    "id": 10,
+                    "name": "Colorado Rockies",
+                    "logo": "https:\/\/media-2.api-sports.io\/baseball\/teams\/10.png"
+                },
+                "league": {
+                    "id": 1,
+                    "name": "MLB",
+                    "type": "League",
+                    "logo": "https:\/\/media-1.api-sports.io\/baseball\/leagues\/1.png",
+                    "season": 2023
+                },
+                "country": {
+                    "id": 1,
+                    "name": "USA",
+                    "code": "US",
+                    "flag": "https:\/\/media-1.api-sports.io\/flags\/us.svg"
+                },
+                "games": {
+                    "played": 47,
+                    "win": {
+                        "total": 19,
+                        "percentage": "0.404"
+                    },
+                    "lose": {
+                        "total": 28,
+                        "percentage": "0.596"
+                    }
+                },
+                "points": {
+                    "for": 208,
+                    "against": 254
+                },
+                "form": "LLLWL",
+                "description": null
+            }
+        ]
+    ]
+}
