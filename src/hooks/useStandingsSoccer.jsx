@@ -5,11 +5,12 @@ import { requestOptions, urlSoccer } from "../services/api"
 
 export function useStandingsSoccer(idLeague){
     const [result, setResult] = useState(null)
+
     useEffect(()=>{
         fetch(urlSoccer+`standings?league=${idLeague}&season=2022`, requestOptions)
         .then(response => response.json())
         .then(response => {
-            console.log(response)
+            
             const resultnoMapeado =  response.response[0].league.standings[0]
             const resultMapeado = resultnoMapeado.map((res)=>({
                 id: res.team.id,

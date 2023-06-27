@@ -1,11 +1,5 @@
-import { useParams } from "react-router-dom"
-import { useStandingBasket } from "../hooks/useStandingsBasket.jsx"
-
-export function TableStandingsBasket(){
-  const {idLeague} = useParams()
-  const [result] = useStandingBasket(idLeague)
+export function TableStandingsBasket({result}){
   
-    console.log(result)
     return(
       <>
         {result && result.map((res,index)=>(
