@@ -1,4 +1,4 @@
-import { BarStandingsSoccer } from "../components/BarStandingsSoccer.jsx"
+import { BarStandings } from "../components/BarStandings.jsx"
 import { TableStandingsSoccer } from "../components/TableStandingsSoccer.jsx"
 import { TableScoresSoccer } from "../components/tableScoresSoccer.jsx"
 import { TableAssistsSoccer } from "../components/TableAssistsSoccer.jsx"
@@ -20,10 +20,11 @@ export function StandingsSoccer(){
     return(
         <>
             {result && <TableStandingsSoccer result={result}/>}
-            {result && <BarStandingsSoccer title={"Equipos con mas goles anotados"} data={golesFavor} color={"cyan"} index={"name"} categories={"Goles_Favor"}/>}
-            {result && <BarStandingsSoccer title={"Equipos con mas goles encajados"} data={golesContra} color={"red"} index={"name"} categories={"Goles_Contra"}/>}
             {topScores && <TableScoresSoccer result={topScores}/>}
             {topAssists && <TableAssistsSoccer result={topAssists}/>}
+            {result && <BarStandings title={"Equipos con mas goles anotados"} data={golesFavor} color={"cyan"} index={"name"} categories={"Goles_Favor"}/>}
+            {result && <BarStandings title={"Equipos con mas goles encajados"} data={golesContra} color={"red"} index={"name"} categories={"Goles_Contra"}/>}
+            
         </>
     )
 }

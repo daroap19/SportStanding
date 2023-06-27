@@ -1,7 +1,7 @@
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts';
 
 
-export function BarStandingsSoccer({data, index, categories, title, color}){
+export function BarStandings({data, index, categories, title, color}){
 
     return (
         <>

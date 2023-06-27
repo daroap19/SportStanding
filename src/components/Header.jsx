@@ -1,5 +1,5 @@
 import { useState } from "react"
-import { Link, Route, Routes } from "react-router-dom"
+import { Link, NavLink } from "react-router-dom"
 
 const LIGAS = {
      "futbol": [
@@ -16,40 +16,40 @@ const LIGAS = {
 
 export function Header(){
     const [liga, setLiga] = useState("futbol")
-
+   
 
     return(
     <header>
-        <ul>
-            <li><a  onClick={()=>{setLiga("futbol")}}>Futbol</a></li>
-            <li><a onClick={()=>{setLiga("basquet")}}>Basquet</a></li>
-            <li><a onClick={()=>{setLiga("beisbol")}}>Beisbol</a></li>
-        </ul> 
-        <ul>
-            <li className="partidos" >
-                <a  href="">Partidos</a>
-                <ul className="opciones">
-                    {LIGAS[liga] && LIGAS[liga].map((value)=>(
-                        <li key={value.id}><Link to={`/estadisticas/${liga}/${value.name}/${value.id}`}>{value.name}</Link></li>
-                    ))
-                    }
-                </ul>
-            </li>
-            <li  className="estadisticas">
-                <a href="">Estadisticas</a>
-                <ul className="opciones">
-                    {LIGAS[liga] && LIGAS[liga].map((value)=>(
-                        <li key={value.id}><Link to={`/estadisticas/${liga}/${value.name}/${value.id}`}>{value.name}</Link></li>
-                    ))
-                    }
-                </ul>
-            </li>
-            <li>
-                <a href="">Favoritos</a>
-            </li>
-        </ul>
-
-       
+        <nav>
+            <ul>
+                <li><a className={`${liga == "futbol" ? "active" : ""}  `} onClick={()=>{setLiga("futbol")}}>Futbol</a></li>
+                <li><a className={`${liga == "basquet"  ? "active" : ""}  `} onClick={()=>{setLiga("basquet")}}>Basquet</a></li>
+                <li><a className={`${liga == "beisbol" ? "active" : ""}`} onClick={()=>{setLiga("beisbol")}}>Beisbol</a></li>
+            </ul> 
+            <ul>
+                <li className="partidos" >
+                    <a  href="">Partidos</a>
+                    <ul className="opciones">
+                        {LIGAS[liga] && LIGAS[liga].map((value)=>(
+                            <li key={value.id}><Link to={`/partidos/${liga}/${value.name}/${value.id}`}>{value.name}</Link></li>
+                        ))
+                        }
+                    </ul>
+                </li>
+                <li  className="estadisticas">
+                    <a href="">Estadisticas</a>
+                    <ul className="opciones">
+                        {LIGAS[liga] && LIGAS[liga].map((value)=>(
+                            <li key={value.id}><Link to={`/estadisticas/${liga}/${value.name}/${value.id}`}>{value.name}</Link></li>
+                        ))
+                        }
+                    </ul>
+                </li>
+                <li>
+                    <a href="">Favoritos</a>
+                </li>
+            </ul> 
+        </nav>
     </header>
     )
 }

@@ -1,9 +1,6 @@
-import { useParams } from "react-router-dom"
-import { useStandingsSoccer } from "../hooks/useStandingsSoccer"
 
-export function TableStandingsSoccer() {
-  const {idLeague} = useParams()
-  const [result] = useStandingsSoccer(idLeague)
+export function TableStandingsSoccer({result}) {
+
   return (
     <>
     <table>

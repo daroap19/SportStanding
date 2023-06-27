@@ -4,12 +4,12 @@ import { requestOptions, urlBaseball } from "../services/api"
 
 export function useStandingBaseball(idLeague){
     const [result, setResult] = useState(null)
-    console.log(idLeague)
+
     useEffect(()=>{
         fetch(urlBaseball+`standings?league=${idLeague}&season=2023`, requestOptions)
         .then(response => response.json())
         .then(response => {
-            console.log(response)
+            console.log(response.response[0])
             const resultnoMapeado =  response.response[0]
             const resultMapeado = resultnoMapeado.map((res)=>({
                 id: res.team.id,
@@ -18,11 +18,13 @@ export function useStandingBaseball(idLeague){
                 name: res.team.name,
                 played: res.games.played,
                 win: res.games.win.total,
+                win_percentage: res.games.win.percentage,
                 lose: res.games.lose.total,
+                lose_percentage: res.games.lose.percentage,
                 pa: res.points.for,
                 pe: res.points.against,
                 confe: res.group.name
-            }))      
+            }))         
             
             if(idLeague === "1"){
                 const res = [resultMapeado.filter(cee=>cee.confe == "American League"),

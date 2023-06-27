@@ -1,7 +1,7 @@
 import { Title } from '@tremor/react';
 import { ScatterChart, Scatter, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, Legend } from 'recharts';
 
-export function ScatterStandingsBasket({categories, index, data, title}){
+export function ScatterStandings({categories, index, data, title}){
 
     return (
         <div>
