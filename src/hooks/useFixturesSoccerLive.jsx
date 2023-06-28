@@ -3,10 +3,10 @@ import { requestOptions, urlSoccer } from "../services/api"
 
 
 
-export function useFixturesSoccer(idLeague){
+export function useFixturesSoccerLive(idLeague){
     const [result, setResult] = useState(null)
     useEffect(()=>{
-        fetch(urlSoccer+`fixtures?league=${idLeague}&season=2023`, requestOptions)
+        fetch(urlSoccer+`fixtures?live=all`, requestOptions)
         .then(response => response.json())
         .then(response => {
             console.log(response)

@@ -17,7 +17,9 @@ export function useStandingBasket(idLeague){
                 name: res.team.name,
                 played: res.games.played,
                 win: res.games.win.total,
+                win_percentage: res.games.win.percentage,
                 lose: res.games.lose.total,
+                lose_percentage: res.games.lose.percentage,
                 pa: res.points.for,
                 pe: res.points.against,
                 confe: res.group.name
@@ -40,6 +42,6 @@ export function useStandingBasket(idLeague){
         })
         .catch(error => console.log('error', error));
     }, [idLeague])
-    console.log(result)
+   
     return [result]
 }

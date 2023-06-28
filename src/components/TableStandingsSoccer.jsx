@@ -1,13 +1,11 @@
-import { useParams } from "react-router-dom"
-import { useStandingsSoccer } from "../hooks/useStandingsSoccer"
 
-export function TableStandingsSoccer() {
-  const {idLeague} = useParams()
-  const [result] = useStandingsSoccer(idLeague)
+export function TableStandingsSoccer({result}) {
+
   return (
     <>
-    <table>
+    <table className="table_estadistica">
       <thead>
+        <tr><th colspan="10" className="table_estadistica_titulo">Tabla de Posiciones</th></tr>
         <tr>
           <th>POS</th>
           <th>EQUIPO</th>
@@ -26,7 +24,7 @@ export function TableStandingsSoccer() {
            result && result.map((res)=>(
             <tr key={res.id}>
               <td>{res.rank}</td>
-              <td><img src={res.logo}/> {res.name}</td>
+              <td className="table_estadistica_name" ><img className="table_estadistica_logo" src={res.logo}/> <span>{res.name}</span></td>
               <td>{res.points}</td>
               <td>{res.played}</td>
               <td>{res.win}</td>
