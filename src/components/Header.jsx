@@ -30,7 +30,7 @@ export function Header(){
                 <a  href="">Partidos</a>
                 <ul className="opciones">
                     {LIGAS[liga] && LIGAS[liga].map((value)=>(
-                        <li key={value.id}><Link to={`/estadisticas/${liga}/${value.name}/${value.id}`}>{value.name}</Link></li>
+                        <li key={value.id}><Link to={`/partidos/${liga}/${value.name}/${value.id}`}>{value.name}</Link></li>
                     ))
                     }
                 </ul>
