@@ -4,9 +4,9 @@ import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContaine
 export function BarStandings({data, index, categories, title, color}){
 
     return (
-        <>
-        <h1>{title}</h1>
-        <ResponsiveContainer width="100%" height={400}>
+        <div className='cont_bar'>
+        <h2>{title}</h2>
+        <ResponsiveContainer width="100%" height="90%">
             <BarChart data={data} 
           barSize={50}>
             <XAxis dataKey={index}  scale="point" padding={{ left: 30, right: 30 }} />
@@ -16,6 +16,6 @@ export function BarStandings({data, index, categories, title, color}){
             <Bar dataKey={categories} fill={color} background={{ fill: '#eee' }} />
             </BarChart>
         </ResponsiveContainer>
-       </>
+       </div>
     )
 }

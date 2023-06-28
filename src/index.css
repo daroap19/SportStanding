@@ -1,18 +1,138 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#root{
+    background-color: aliceblue;
+}
+
+.partidos .opciones, .estadisticas .opciones{
+    display: none;
+ }
+
 .partidos:hover > .opciones, .estadisticas:hover > .opciones{
     display: flex;
+    position: absolute;
     flex-direction: column;
+    background-color: #007bff;
+    border-radius: 5px;
+    padding: 10px;
 }
 
-.opciones{
-   display: none;
+.partidos .opciones li:hover, .estadisticas .opciones li:hover{
+    background: #fa0764;
+    border-radius: 5px;
+    padding: 3px;
+ }
+
+header nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    background-color: #007bff;
+    color: #fff;
+    max-height: 100px;
+    min-height: 90px;
 }
+
 
 header nav ul{
+    display: flex;
+    margin: 10px 0;
     list-style: none;
 }
 
+
+header nav ul li{
+    margin: 0 10px;
+}
+
+header nav ul li a{
+   padding: 12px;
+   width: 200px;
+   text-transform: uppercase;
+   font-family:Verdana, Geneva, Tahoma, sans-serif;
+   font-size: 15px;
+    text-align: center;
+} 
+
+header nav a:hover{
+    cursor: pointer;
+}
+
+
 header nav .active{
     color: #fff;
-    background-color: #007bff;
+    background-color: #fa0764;
     border-radius: 5px;
+}
+
+.sec_estadistica{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto;
+}
+
+.sec_estadistica .table_estadistica {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 6px 0;
+}
+
+.sec_estadistica .table_estadistica thead .table_estadistica_titulo{
+    font-size: 22px;
+}
+
+.sec_estadistica .table_estadistica thead tr th{
+    background-color: #fa0764;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+}
+
+.sec_estadistica .table_estadistica tbody tr td{
+    padding: 10px;
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+}
+
+.sec_estadistica .table_estadistica tbody .table_estadistica_logo{
+    width: 7%;
+    margin: 0 4%;
+}
+
+.sec_estadistica .table_estadistica tbody .table_estadistica_name{
+    display: flex;
+    align-items: center;
+}
+
+.sec_estadistica .table_estadistica tbody tr:hover{
+    background-color: #fa0764;
+    cursor: pointer;
+    color: white;
+}
+
+.sec_estadistica .cont_bar{
+    width: 100%;
+    height: 500px;
+    border-radius: 5px;
+    margin: 30px 0;
+    border: 2px solid #fa0764;
+    padding: 4px;
+}
+
+.sec_estadistica .cont_bar h2{
+    background-color: #fa0764;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    margin: 0 0 10px 0 ;
 }

@@ -2,8 +2,9 @@ export function TableScoresSoccer({result}) {
     
     return (
       <>
-      <table>
+      <table  className="table_estadistica">
         <thead>
+          <tr><th colspan="10" className="table_estadistica_titulo">Maximos Goleadores</th></tr>
           <tr>
             <th>Nombre</th>
             <th>Edad</th>
@@ -18,7 +19,7 @@ export function TableScoresSoccer({result}) {
            {
              result && result.map((res)=>(
               <tr key={res.id}>
-                <td><img src={res.photo}/> {res.name}</td>
+                <td className="table_estadistica_name"><img className="table_estadistica_logo" src={res.photo}/> {res.name}</td>
                 <td>{res.age}</td>
                 <td>{res.team}</td>
                 <td>{res.games}</td>

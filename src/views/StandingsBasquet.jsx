@@ -19,14 +19,15 @@ export function StandingsBasquet(){
 
 
     return(
-        <>
+        <section className="sec_estadistica">
             {result && <TableStandingsBasket result={result}/>}
             {result && <DonutStandings data={data} title={"Promedio de victoria"} 
-            index={"name"} categories={"win_percentage"} colors={"#82ca9d"}/>}
+            index={"name"} categories={"win_percentage"} colors={"#007bff"}/>}
             {result && <DonutStandings data={data} title={"Promedio de derrota"} 
             index={"name"} categories={"lose_percentage"} colors={"#82ca9d"}/>}
             {result && <ScatterStandings data={data} index={"win"} 
-            categories={{pa: "pa", pe: "pe"}} title={"Puntos Anotados - Encajados VS Partidos Ganados"}/>}
-        </>
+            categories={{pa: "pa", pe: "pe"}} color={{uno: "#007bff", dos: "#c2084f"}} 
+            title={"Puntos Anotados - Encajados VS Partidos Ganados"}/>}
+        </section>
     )
 }

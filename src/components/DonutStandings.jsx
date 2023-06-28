@@ -3,12 +3,12 @@ import { PieChart, Pie,  ResponsiveContainer, Tooltip, Legend, Cell} from "recha
 export function DonutStandings({title, data, categories, index, colors}){
 
 
-    const COLORS = ['#0088FE', '#00C49F', '#FFBB28', '#FF8042', '#FF8170', '#A41130'];
+    const COLORS = ['#007bff', '#1885ba', '#184dba', '#3408c2', '#9c08c2', '#c20883', '#c2084f'];
    
     return(
-        <div>
-         <h1>{title}</h1>
-        <ResponsiveContainer width="100%" height={400}>
+        <div className='cont_bar'>
+        <h2>{title}</h2>
+        <ResponsiveContainer width="100%" height="90%">
             <PieChart >
                 <Pie data={data.slice(0,7)} 
                 dataKey={categories} 

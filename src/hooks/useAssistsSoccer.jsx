@@ -27,6 +27,6 @@ export function useAssistsSoccer(idLeague){
         })
         .catch(error => console.log('error', error));
     }, [idLeague])
-   
+   console.log(result)
     return [result]
 }

@@ -1,13 +1,9 @@
 /** @type {import('tailwindcss').Config} */
-module.exports = {
-  content: [
-  // If using the src directory, add:
-  "./src/**/*.{js,ts,jsx,tsx,mdx}",
-  "./node_modules/@tremor/**/*.{js,ts,jsx,tsx}", // Tremor module
-  
-  ],
+export default {
+  content: ["./src/**/*.{html,js}"],
   theme: {
-  extend: {},
+    extend: {},
   },
   plugins: [],
-  }
+}
+

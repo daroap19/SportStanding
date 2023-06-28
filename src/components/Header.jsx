@@ -15,15 +15,14 @@ const LIGAS = {
 
 
 export function Header(){
-    const [liga, setLiga] = useState("futbol")
-   
+    const [liga, setLiga] = useState("futbol") 
 
     return(
     <header>
         <nav>
             <ul>
-                <li><a className={`${liga == "futbol" ? "active" : ""}  `} onClick={()=>{setLiga("futbol")}}>Futbol</a></li>
-                <li><a className={`${liga == "basquet"  ? "active" : ""}  `} onClick={()=>{setLiga("basquet")}}>Basquet</a></li>
+                <li><a className={`${liga == "futbol" ? "active" : ""}`} onClick={()=>{setLiga("futbol")}}>Futbol</a></li>
+                <li><a className={`${liga == "basquet"  ? "active" : ""}`} onClick={()=>{setLiga("basquet")}}>Basquet</a></li>
                 <li><a className={`${liga == "beisbol" ? "active" : ""}`} onClick={()=>{setLiga("beisbol")}}>Beisbol</a></li>
             </ul> 
             <ul>
@@ -45,7 +44,7 @@ export function Header(){
                         }
                     </ul>
                 </li>
-                <li>
+                <li className="favoritos">
                     <a href="">Favoritos</a>
                 </li>
             </ul> 
