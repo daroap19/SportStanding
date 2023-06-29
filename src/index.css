@@ -76,17 +76,17 @@ header nav .active{
     margin: 20px auto;
 }
 
-.sec_estadistica .table_estadistica {
+.table_estadistica {
     width: 100%;
     border-collapse: collapse;
     margin: 6px 0;
 }
 
-.sec_estadistica .table_estadistica thead .table_estadistica_titulo{
+.table_estadistica thead .table_estadistica_titulo{
     font-size: 22px;
 }
 
-.sec_estadistica .table_estadistica thead tr th{
+.table_estadistica thead tr th{
     background-color: #fa0764;
     color: #fff;
     padding: 10px;
@@ -95,24 +95,24 @@ header nav .active{
     font-size: 16px;
 }
 
-.sec_estadistica .table_estadistica tbody tr td{
+.table_estadistica tbody tr td{
     padding: 10px;
     text-align: center;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-size: 16px;
 }
 
-.sec_estadistica .table_estadistica tbody .table_estadistica_logo{
+.table_estadistica tbody .table_estadistica_logo{
     width: 7%;
     margin: 0 4%;
 }
 
-.sec_estadistica .table_estadistica tbody .table_estadistica_name{
+.table_estadistica tbody .table_estadistica_name{
     display: flex;
     align-items: center;
 }
 
-.sec_estadistica .table_estadistica tbody tr:hover{
+.table_estadistica tbody tr:hover{
     background-color: #fa0764;
     cursor: pointer;
     color: white;
