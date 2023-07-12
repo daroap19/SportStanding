@@ -4,7 +4,7 @@ export function TableScoresSoccer({result}) {
       <>
       <table  className="table_estadistica">
         <thead>
-          <tr><th colspan="10" className="table_estadistica_titulo">Maximos Goleadores</th></tr>
+          <tr><th colSpan="10" className="table_estadistica_titulo">Maximos Goleadores</th></tr>
           <tr>
             <th>Nombre</th>
             <th>Edad</th>

@@ -8,7 +8,6 @@ export function useGamesBasquet(idLeague){
         fetch(urlBasket+`games?league=${idLeague}&season=2022-2023`, requestOptions)
         .then(response => response.json())
         .then(response => {
-            console.log(response)
             const resultnoMapeado =  response.response
             const resultMapeado = resultnoMapeado.map((res)=>({
                 id: res.id,
@@ -26,6 +25,5 @@ export function useGamesBasquet(idLeague){
         .catch(error => console.log('error', error));
     }, [idLeague])
 
-    console.log(result)
     return [result]
 }

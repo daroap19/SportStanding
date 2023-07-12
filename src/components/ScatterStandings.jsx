@@ -1,4 +1,3 @@
-import { Title } from '@tremor/react';
 import { ScatterChart, Scatter, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, Legend } from 'recharts';
 
 export function ScatterStandings({categories, index, data, title, color}){

@@ -5,7 +5,7 @@ export function TableStandingsBasket({result}){
         {result && result.map((res,index)=>(
           <table  className="table_estadistica" key={index}>
           <thead>
-            <tr><th colspan="10" className="table_estadistica_titulo">Tabla de Posiciones</th></tr>
+            <tr><th colSpan="10" className="table_estadistica_titulo">Tabla de Posiciones</th></tr>
             <tr>
               <th>POS</th>
               <th>EQUIPO</th>
@@ -15,7 +15,7 @@ export function TableStandingsBasket({result}){
               <th>PA</th>
               <th>PE</th>
             </tr>
-            {res[0].confe && <tr><th colspan="10" style={{textAlign: "left"}}>{res[0].confe}</th></tr>}
+            {res[0].confe && <tr><th colSpan="10" style={{textAlign: "left"}}>{res[0].confe}</th></tr>}
           </thead>
           <tbody>
             {
