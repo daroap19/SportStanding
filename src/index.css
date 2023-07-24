@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-#root{
+#root, body{
     background-color: aliceblue;
 }
 
@@ -76,17 +76,18 @@ header nav .active{
     margin: 20px auto;
 }
 
-.table_estadistica {
+.table_estadistica, .table_partidos{
     width: 100%;
     border-collapse: collapse;
     margin: 6px 0;
 }
 
-.table_estadistica thead .table_estadistica_titulo{
+.table_estadistica thead .table_estadistica_titulo,
+.table_partidos thead .table_estadistica_titulo{
     font-size: 22px;
 }
 
-.table_estadistica thead tr th{
+.table_estadistica thead tr th, .table_partidos thead tr th{
     background-color: #fa0764;
     color: #fff;
     padding: 10px;
@@ -95,19 +96,21 @@ header nav .active{
     font-size: 16px;
 }
 
-.table_estadistica tbody tr td{
+.table_estadistica tbody tr td, .table_partidos tbody tr td{
     padding: 10px;
     text-align: center;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-size: 16px;
 }
 
-.table_estadistica tbody .table_estadistica_logo{
+.table_estadistica tbody .table_estadistica_logo,
+.table_partidos tbody .table_estadistica_logo{
     width: 7%;
     margin: 0 4%;
 }
 
-.table_estadistica tbody .table_estadistica_name{
+.table_estadistica tbody .table_estadistica_name,
+.table_partidos tbody .table_estadistica_name{
     display: flex;
     align-items: center;
 }
@@ -117,6 +120,7 @@ header nav .active{
     cursor: pointer;
     color: white;
 }
+
 
 .sec_estadistica .cont_bar{
     width: 100%;

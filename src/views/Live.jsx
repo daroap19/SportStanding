@@ -1,4 +1,4 @@
-import { MainLiveSoccer } from "../components/MainLiveSoccer";
+import { Matchs } from "../components/Matchs";
 import { useFixturesSoccerLive } from "../hooks/useFixturesSoccerLive";
 
 export function Live(){
@@ -6,7 +6,7 @@ export function Live(){
 
     return(
         <section className="sec_estadistica ">
-            {result && <MainLiveSoccer result={result}/>}
+            {result && <Matchs result={result}/>}
         </section>
     )
 }

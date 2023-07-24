@@ -1,7 +1,7 @@
 const requestOptions = {
     method: 'GET',
     headers: {
-      "x-rapidapi-key": "d6cbe89842dd442e21974fa42e4fedf4",
+      "x-rapidapi-key": "9084ce6eb502811b653b3d6e1e902035",
       "x-rapidapi-host": "v3.football.api-sports.io"
     },
     redirect: 'follow'

@@ -11,7 +11,7 @@ export function TableStandingsBaseball(){
         {result && result.map((res,index)=>(
           <table  className="table_estadistica" key={index}>
           <thead>
-            <tr><th colspan="10" className="table_estadistica_titulo">Tabla de Posiciones</th></tr>
+            <tr><th colSpan="10" className="table_estadistica_titulo">Tabla de Posiciones</th></tr>
             <tr>
               <th>POS</th>
               <th>EQUIPO</th>
