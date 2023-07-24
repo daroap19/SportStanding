@@ -7,7 +7,7 @@ export function MatchsSoccer(){
     const [result] = useFixturesSoccer(idLeague)
 
     return(
-        <section>
+        <section className="sec_estadistica ">
             {<Matchs result={result}/>}
         </section>
     )
