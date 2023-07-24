@@ -15,7 +15,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   <BrowserRouter>
       <Header></Header>
        <Routes>
-
             <Route path='/partidos/futbol/:name/:idLeague' element={<MainSoccer/>} />
             <Route path='/partidos/basquet/:name/:idLeague' element={<MainBasquet/>} />
             <Route path='/partidos/beisbol/:name/:idLeague' element={<MainBaseball/>} />

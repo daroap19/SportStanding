@@ -16,8 +16,8 @@ export function MainBaseball(){
             <td className="table_estadistica_name" ><img className="table_estadistica_logo" src={res.logoh}/></td>
             <td>{res.nameh}</td>
             <td>{res.scoreh}-{res.scorea}</td>
-            <td className="table_estadistica_name" ><img className="table_estadistica_logo" src={res.logoa}/></td>
             <td>{res.namea}</td>
+            <td className="table_estadistica_name" ><img className="table_estadistica_logo" src={res.logoa}/></td>
           </tr>
          ))
         }
