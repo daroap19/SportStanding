@@ -121,7 +121,6 @@ header nav .active{
     color: white;
 }
 
-
 .sec_estadistica .cont_bar{
     width: 100%;
     height: 500px;
@@ -174,4 +173,69 @@ header nav .active{
 .section_principal{
     display: flex;
     justify-content: center;
+}
+
+.sec_apuesta{
+    background-color: aliceblue;
+    min-width: 20%;
+    min-height: 5%;
+    height: 100%;
+    width: 22%;
+    padding: 1%;
+    border: 2px solid #007bff;
+}
+
+.sec_apuesta h2{
+    color: aliceblue;
+    text-align: center;
+    font-size: 1.3em;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #007bff;
+    border: 2px solid #007bff;
+}
+
+.sec_apuesta .cont_apuesta{
+    margin: 0 auto;
+    width: 99%;
+    padding: 1%;
+    background-color: #007bff;
+    margin: 1%;
+    border-radius: 5px;
+    font-size: 1em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.sec_apuesta .cont_apuesta .apuesta_ganador{
+    text-align: center;
+    align-items: center;
+    background-color: aliceblue;
+}
+
+.sec_apuesta .form_apuesta{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    border-radius: 5px;
+    padding: 1%;
+}   
+
+.sec_apuesta .form_apuesta input{
+    border: 2px solid #007bff;
+    transition: all 1.4s cubic-bezier(0.075, 0.82, 0.165, 1)
+}
+
+.sec_apuesta .form_apuesta input:focus,
+.sec_apuesta .form_apuesta input:active{
+    border:  4px solid #fa0764;;
+    outline: none;
+    transition: all 1.4s cubic-bezier(0.075, 0.82, 0.165, 1)
+}
+
+.sec_apuesta .form_apuesta label{
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 900;
 }

@@ -9,7 +9,6 @@ export function useFixturesSoccer(idLeague){
         fetch(urlSoccer+`fixtures?league=${idLeague}&season=2023`, requestOptions)
         .then(response => response.json())
         .then(response => {
-    console.log(response)
             
             const resultnoMapeado =  response.response
             const resultMapeado = resultnoMapeado.map((res)=>({
@@ -17,8 +16,8 @@ export function useFixturesSoccer(idLeague){
                 status: res.fixture.status.short,
                 logoh: res.teams.home.logo,
                 nameh: res.teams.home.name,
-                scoreh: res.score.fulltime.home,
-                scorea: res.score.fulltime.away,
+                scoreh: res.goals.home,
+                scorea: res.goals.away,
                 logoa: res.teams.away.logo,
                 namea: res.teams.away.name,
                 time: res.fixture.status.elapsed,
@@ -28,6 +27,5 @@ export function useFixturesSoccer(idLeague){
         })
         .catch(error => console.log('error', error));
     }, [idLeague])
-    console.log(result)
     return [result]
 }

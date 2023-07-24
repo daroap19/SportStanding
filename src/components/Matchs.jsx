@@ -6,6 +6,8 @@ import { BetsContext } from "../context/bets"
 export function Matchs({result}){
    const {bets, setBets} = useContext(BetsContext)
 
+   console.log(result
+   )
   function handleCLick(event){
     event.preventDefault()
     const [newBet, target] = useSelect(event)  
@@ -52,13 +54,12 @@ export function Matchs({result}){
                  <p>{res.nameh}</p>
                </td> : 
               <td onClick={(e) => handleCLick(e)} className={`equipo_local`}>
-                 <p>{Math.ceil(1+Math.random()*5)}</p>
                  <img className="table_estadistica_logo" src={res.logoh}/>
                  <p>{res.nameh}</p>
                </td>
               }
               <td>
-                <p>{res.scoreh}-{res.scorea}</p>
+                {bets && <p>{res.scoreh}-{res.scorea}</p>}
                 <p className="time_partido">{res.time ?? "0"}</p>
               </td>
              {bets.some(bet => bet.id == res.id && bet.select.ganador == res.namea) ? 
